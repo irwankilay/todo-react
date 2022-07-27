@@ -2,7 +2,6 @@ pipeline {
     agent { 
         docker { 
             image 'node:14-alpine'  
-            args '-u root --privileged'
         }
     }
     stages {
